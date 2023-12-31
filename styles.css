@@ -5,7 +5,7 @@ body {
 
 header {
      color: whitesmoke;
-     font-size: 1.6rem;
+     font-size: 1.6em;
      text-align: center;
      margin-top: 100px;
 }
@@ -21,7 +21,7 @@ main {
      width: 40vw;
      border-radius: 20px;
      box-shadow: blue 0px 20px 30px -10px;
-     padding: 20px;
+     padding: 25px;
      display: flex;
      justify-content: center;
      flex-wrap: wrap;
@@ -34,7 +34,9 @@ main {
 }
 
 .input-check {
+     width: 100%;
      display: flex;
+     justify-content: center;
      gap: 5%;
 }
 
@@ -47,8 +49,16 @@ main {
 
 #check-btn {
      border: none;
-     border-radius: 10px;
+     border-radius: 15px;
      background-color: blueviolet;
      color: whitesmoke;
      padding: 10px 20px;
+}
+
+#result {
+     width: 100%;
+     margin-top: 30px;
+     text-align: center;
+     font-weight: 700;
+     font-size: 1.3em;
 }
